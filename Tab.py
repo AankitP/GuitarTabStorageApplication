@@ -27,6 +27,14 @@ class GuitarTab:
     def setLocation(self, location):
         self.Location = location
 
+    # this is so that I can store the object to a json
+    def to_dict(self):
+        return {
+            "Title": self.Title,
+            "Artist": self.Artist,
+            "Location": self.Location
+        }
+
 if(debug):
     newSong = GuitarTab()
 

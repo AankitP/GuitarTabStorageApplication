@@ -1,24 +1,22 @@
 {
-  "Tabs": {
-    "1": {
-      "Title": "Chitthi Bhitra",
-      "Artist": "Sajjan Raj Vaidya",
-      "Location": "Tabs_Holder/chitthi bhitra.pdf"
-    },
-    "2": {
-      "Title": "Farki Farki Nahera Malai",
-      "Artist": "Albatross",
-      "Location": "Tabs_Holder/farki farki nahera malai.pdf"
-    },
-    "3": {
-      "Title": "Naganya Maya",
-      "Artist": "Sajjan Raj Vaidya",
-      "Location": "Tabs_Holder/naganya maya.pdf"
-    },
-    "4": {
-      "Title": "When I Was Your Man",
-      "Artist": "Bruno Mars",
-      "Location": "Tabs_Holder/when i was your man.pdf"
-    }
+  "1": {
+    "Title": "Chitthi Bhitra",
+    "Artist": "Sajjan Raj Vaidya",
+    "Location": "Tabs_Holder/chitthi bhitra.pdf"
+  },
+  "2": {
+    "Title": "Farki Farki Nahera Malai",
+    "Artist": "Albatross",
+    "Location": "Tabs_Holder/farki farki nahera malai.pdf"
+  },
+  "3": {
+    "Title": "Naganya Maya",
+    "Artist": "Sajjan Raj Vaidya",
+    "Location": "Tabs_Holder/naganya maya.pdf"
+  },
+  "4": {
+    "Title": "When I Was Your Man",
+    "Artist": "Bruno Mars",
+    "Location": "Tabs_Holder/when i was your man.pdf"
   }
 }
