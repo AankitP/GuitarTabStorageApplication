@@ -8,9 +8,6 @@ def onStart(songDict):
     with open('Tabs.json', 'r') as file:
         tabs_data = json.load(file)
 
-    # Access the Tabs object
-    # tabs_object = tabs_data.get('Tabs', {})
-
     # Go through JSON file and create the song dictionary
     for song_key, song_details in tabs_data.items():
         # Ensure song_key is treated as a string
