@@ -1,5 +1,7 @@
 from Tab import GuitarTab
 import json
+import os
+import subprocess
 
 # this is to load the JSON File and fill the songDict
 def onStart(songDict):
@@ -50,12 +52,19 @@ def options_menu():
 # this is to show the tab that the user wants to see
 def case2(song_dict):
     print('\033c', end='')
-
     print_tabs_list(song_dict)
 
     try:
         song_index = int(input("Select The Song Index that you want: "))
         print(f"{song_dict[song_index].getTitle()}")
+
+        location = song_dict[song_index].getLocation()
+
+        if os.path.exists(location):
+            subprocess.run(['open', location])  # Open the file in the default web browser
+        else:
+            print("File not found.")
+        
     except (ValueError, KeyError):
         print("Invalid input or index does not exist.")
 
